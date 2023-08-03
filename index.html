@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionando valores</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+<body>
+    <h1>Analisador de números</h1>
+    
+    <main>
+        <form action="get">
+            <label for="num">
+                Número (1-100):
+            </label>
+            <input type="number" name="num" id="num">
+            <input type="button" id="add" value="Adicionar" onclick="adicionar()">
+            <ul id="lista"></ul>
+            <input type="button" id="fim" value="Finalizar" onclick="finalizar()">
+            <ul id="analise">
+                <li></li>
+            </ul>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copyRafael Santiago</p>
+    </footer>
+
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
